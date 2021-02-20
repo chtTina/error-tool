@@ -1,0 +1,16 @@
+{
+  "name": "@tinacai/error-tool",
+  "version": "1.0.0",
+  "description": "a error log tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "error",
+    "log"
+  ],
+  "author": "tina.cai",
+  "git": "git@github.com:chtTina/error-tool.git",
+  "license": "MIT"
+}
