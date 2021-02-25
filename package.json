@@ -4,7 +4,9 @@
   "description": "a error log tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack serve"
   },
   "keywords": [
     "error",
@@ -12,5 +14,27 @@
   ],
   "author": "tina.cai",
   "git": "git@github.com:chtTina/error-tool.git",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "html2canvas": "^1.0.0-rc.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-export-namespace-from": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "css-loader": "^5.0.2",
+    "html-loader": "^2.1.0",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
