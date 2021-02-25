@@ -2,7 +2,7 @@
   "name": "@tinacai/error-tool",
   "version": "1.0.1",
   "description": "a error log tool",
-  "main": "index.js",
+  "main": "dist/vfeedback.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
