@@ -1,6 +1,6 @@
 {
   "name": "@tinacai/error-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a error log tool",
   "main": "dist/vfeedback.min.js",
   "scripts": {
